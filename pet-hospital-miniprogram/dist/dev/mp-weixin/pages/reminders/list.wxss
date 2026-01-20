@@ -1,0 +1,82 @@
+
+.reminders-page.data-v-49ed56c0 {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 20rpx;
+}
+.header.data-v-49ed56c0 {
+  padding: 30rpx 20rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+  border-radius: 16rpx;
+}
+.title.data-v-49ed56c0 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+.loading.data-v-49ed56c0, .empty.data-v-49ed56c0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100rpx 0;
+}
+.empty-icon.data-v-49ed56c0 {
+  font-size: 100rpx;
+  margin-bottom: 20rpx;
+}
+.empty-text.data-v-49ed56c0 {
+  font-size: 28rpx;
+  color: #999;
+}
+.reminders-list.data-v-49ed56c0 {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+.reminder-card.data-v-49ed56c0 {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.reminder-card.unread.data-v-49ed56c0 {
+  border-left: 6rpx solid #3b82f6;
+}
+.reminder-type.data-v-49ed56c0 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.type-icon.data-v-49ed56c0 {
+  font-size: 36rpx;
+  margin-right: 12rpx;
+}
+.type-text.data-v-49ed56c0 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+}
+.reminder-content.data-v-49ed56c0 {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20rpx;
+}
+.reminder-footer.data-v-49ed56c0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.due-date.data-v-49ed56c0 {
+  font-size: 24rpx;
+  color: #999;
+}
+.status-badge.data-v-49ed56c0 {
+  font-size: 22rpx;
+  color: #3b82f6;
+  background: #eff6ff;
+  padding: 4rpx 12rpx;
+  border-radius: 8rpx;
+}

@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/pets/list",
+    "pages/pets/detail",
+    "pages/pets/edit",
+    "pages/appointment/create",
+    "pages/reminders/list",
+    "pages/records/list",
+    "pages/records/detail",
+    "pages/bills/list",
+    "pages/appointment/list",
+    "pages/profile/index",
+    "pages/consultations/list",
+    "pages/consultations/create",
+    "pages/consultations/detail",
+    "pages/articles/list",
+    "pages/articles/detail",
+    "pages/notifications/list"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "宠物医院",
+    "navigationBarBackgroundColor": "#3B82F6",
+    "backgroundColor": "#F8FAFC"
+  },
+  "tabBar": {
+    "color": "#8E8E93",
+    "selectedColor": "#3B82F6",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tab-home.png",
+        "selectedIconPath": "static/images/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/pets/list",
+        "text": "我的宠物",
+        "iconPath": "static/images/tab-pet.png",
+        "selectedIconPath": "static/images/tab-pet-active.png"
+      },
+      {
+        "pagePath": "pages/appointment/list",
+        "text": "预约",
+        "iconPath": "static/images/tab-appointment.png",
+        "selectedIconPath": "static/images/tab-appointment-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/images/tab-profile.png",
+        "selectedIconPath": "static/images/tab-profile-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于显示附近的宠物医院"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseAddress"
+  ],
+  "usingComponents": {}
+}

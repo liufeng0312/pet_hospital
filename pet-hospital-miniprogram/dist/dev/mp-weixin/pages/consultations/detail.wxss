@@ -1,0 +1,107 @@
+
+.detail-page.data-v-19311ea0 {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 20rpx;
+}
+.loading.data-v-19311ea0 {
+  text-align: center;
+  padding: 100rpx 0;
+}
+.content.data-v-19311ea0 {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+.section.data-v-19311ea0 {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+}
+.section-header.data-v-19311ea0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #f0f0f0;
+}
+.section-title.data-v-19311ea0 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.status-tag.data-v-19311ea0 {
+  padding: 8rpx 20rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+}
+.status-pending.data-v-19311ea0 {
+  background: #fef3c7;
+  color: #f59e0b;
+}
+.status-answered.data-v-19311ea0 {
+  background: #d1fae5;
+  color: #10b981;
+}
+.status-closed.data-v-19311ea0 {
+  background: #f3f4f6;
+  color: #9ca3af;
+}
+.info-item.data-v-19311ea0 {
+  margin-bottom: 24rpx;
+}
+.label.data-v-19311ea0 {
+  display: block;
+  font-size: 24rpx;
+  color: #999;
+  margin-bottom: 12rpx;
+}
+.value.data-v-19311ea0 {
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1.6;
+}
+.reply-section.data-v-19311ea0 {
+  background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 100%);
+}
+.reply-box.data-v-19311ea0 {
+  margin-top: 20rpx;
+}
+.doctor-info.data-v-19311ea0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.doctor-name.data-v-19311ea0 {
+  font-size: 28rpx;
+  color: #3b82f6;
+  font-weight: bold;
+}
+.reply-time.data-v-19311ea0 {
+  font-size: 24rpx;
+  color: #6b7280;
+}
+.reply-content.data-v-19311ea0 {
+  background: #fff;
+  padding: 24rpx;
+  border-radius: 12rpx;
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1.8;
+}
+.waiting-section.data-v-19311ea0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80rpx 0;
+}
+.waiting-icon.data-v-19311ea0 {
+  font-size: 100rpx;
+  margin-bottom: 24rpx;
+}
+.waiting-text.data-v-19311ea0 {
+  font-size: 28rpx;
+  color: #9ca3af;
+}

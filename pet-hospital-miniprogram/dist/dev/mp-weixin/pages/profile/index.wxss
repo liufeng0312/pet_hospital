@@ -1,0 +1,115 @@
+
+.profile-container.data-v-f97f9319 {
+  min-height: 100vh;
+  padding: 24rpx;
+  padding-bottom: 120rpx;
+}
+.user-card.data-v-f97f9319 {
+  display: flex;
+  align-items: center;
+  gap: 24rpx;
+  padding: 32rpx 24rpx;
+  margin-bottom: 24rpx;
+}
+.avatar.data-v-f97f9319 {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.user-info.data-v-f97f9319 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+}
+.user-name.data-v-f97f9319 {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.user-phone.data-v-f97f9319 {
+  font-size: 26rpx;
+  color: var(--text-secondary);
+}
+.user-level.data-v-f97f9319 {
+  flex-shrink: 0;
+}
+.level-badge.data-v-f97f9319 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #FFFFFF;
+  padding: 8rpx 20rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+.quick-links.data-v-f97f9319 {
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  overflow: hidden;
+  margin-bottom: 24rpx;
+}
+.link-item.data-v-f97f9319 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32rpx 24rpx;
+  border-bottom: 1rpx solid var(--border-color);
+}
+.link-item.data-v-f97f9319:last-child {
+  border-bottom: none;
+}
+.link-left.data-v-f97f9319 {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}
+.link-icon.data-v-f97f9319 {
+  font-size: 40rpx;
+}
+.link-text.data-v-f97f9319 {
+  font-size: 28rpx;
+  color: var(--text-color);
+}
+.link-right.data-v-f97f9319 {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+}
+.link-badge.data-v-f97f9319 {
+  background: #3B82F6;
+  color: #FFFFFF;
+  padding: 4rpx 12rpx;
+  border-radius: 12rpx;
+  font-size: 20rpx;
+  font-weight: 600;
+}
+.link-arrow.data-v-f97f9319 {
+  font-size: 48rpx;
+  color: #CBD5E1;
+}
+.settings.data-v-f97f9319 {
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+.setting-item.data-v-f97f9319 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32rpx 24rpx;
+  border-bottom: 1rpx solid var(--border-color);
+}
+.setting-item.data-v-f97f9319:last-child {
+  border-bottom: none;
+}
+.setting-text.data-v-f97f9319 {
+  font-size: 28rpx;
+  color: var(--text-color);
+}
+.logout-text.data-v-f97f9319 {
+  color: var(--error-color);
+}
+.setting-arrow.data-v-f97f9319 {
+  font-size: 48rpx;
+  color: #CBD5E1;
+}

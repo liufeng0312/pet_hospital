@@ -1,0 +1,141 @@
+
+.consultations-page.data-v-f3e577fa {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding-bottom: 120rpx;
+}
+.status-tabs.data-v-f3e577fa {
+  display: flex;
+  background: #fff;
+  padding: 20rpx 0;
+}
+.tab-item.data-v-f3e577fa {
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 28rpx;
+  color: #666;
+  position: relative;
+}
+.tab-item.active.data-v-f3e577fa {
+  color: #3b82f6;
+  font-weight: bold;
+}
+.tab-item.active.data-v-f3e577fa::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60rpx;
+  height: 4rpx;
+  background: #3b82f6;
+  border-radius: 2rpx;
+}
+.loading.data-v-f3e577fa, .empty.data-v-f3e577fa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100rpx 0;
+}
+.empty-icon.data-v-f3e577fa {
+  font-size: 100rpx;
+  margin-bottom: 20rpx;
+}
+.empty-text.data-v-f3e577fa {
+  font-size: 28rpx;
+  color: #999;
+  margin-bottom: 40rpx;
+}
+.empty-btn.data-v-f3e577fa {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 24rpx 48rpx;
+  border-radius: 24rpx;
+  font-size: 28rpx;
+}
+.consultations-list.data-v-f3e577fa {
+  padding: 20rpx;
+}
+.consultation-card.data-v-f3e577fa {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.card-header.data-v-f3e577fa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.title.data-v-f3e577fa {
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-right: 20rpx;
+}
+.status-tag.data-v-f3e577fa {
+  padding: 8rpx 20rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+}
+.status-pending.data-v-f3e577fa {
+  background: #fef3c7;
+  color: #f59e0b;
+}
+.status-answered.data-v-f3e577fa {
+  background: #d1fae5;
+  color: #10b981;
+}
+.status-closed.data-v-f3e577fa {
+  background: #f3f4f6;
+  color: #9ca3af;
+}
+.card-content.data-v-f3e577fa {
+  margin-bottom: 20rpx;
+}
+.content.data-v-f3e577fa {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-footer.data-v-f3e577fa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.time.data-v-f3e577fa {
+  font-size: 24rpx;
+  color: #999;
+}
+.pet.data-v-f3e577fa {
+  font-size: 24rpx;
+  color: #3b82f6;
+}
+.bottom-btn.data-v-f3e577fa {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20rpx;
+  background: #fff;
+  border-top: 1rpx solid #f0f0f0;
+}
+.consult-btn.data-v-f3e577fa {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border: none;
+  padding: 28rpx;
+  border-radius: 24rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}

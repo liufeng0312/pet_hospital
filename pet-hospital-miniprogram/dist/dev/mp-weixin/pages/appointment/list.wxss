@@ -1,0 +1,118 @@
+
+.appointments-container.data-v-6e84a449 {
+  min-height: 100vh;
+  padding-bottom: 120rpx;
+}
+.tabs.data-v-6e84a449 {
+  display: flex;
+  background: #FFFFFF;
+  padding: 16rpx 24rpx;
+  gap: 16rpx;
+  border-bottom: 1rpx solid var(--border-color);
+}
+.tab-item.data-v-6e84a449 {
+  flex: 1;
+  text-align: center;
+  padding: 16rpx 0;
+  border-radius: 8rpx;
+}
+.tab-item.active.data-v-6e84a449 {
+  background: #EFF6FF; /* #3B82F6 with opacity roughly */
+}
+.tab-text.data-v-6e84a449 {
+  font-size: 28rpx;
+  color: var(--text-color);
+  transition: all 0.2s;
+}
+.tab-item.active .tab-text.data-v-6e84a449 {
+  color: #3B82F6;
+  font-weight: 600;
+}
+.appointments-list.data-v-6e84a449 {
+  padding: 24rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+.appointment-card.data-v-6e84a449 {
+  padding: 24rpx;
+}
+.card-header.data-v-6e84a449 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.pet-name.data-v-6e84a449 {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.status-badge.data-v-6e84a449 {
+  padding: 6rpx 16rpx;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+.status-pending.data-v-6e84a449 {
+  background: #FEF3C7;
+  color: #F59E0B;
+}
+.status-confirmed.data-v-6e84a449 {
+  background: #DBEAFE;
+  color: #3B82F6;
+}
+.status-completed.data-v-6e84a449 {
+  background: #D1FAE5;
+  color: #10B981;
+}
+.status-cancelled.data-v-6e84a449 {
+  background: #F3F4F6;
+  color: #6B7280;
+}
+.card-body.data-v-6e84a449 {
+  display: flex;
+  flex-direction: column;
+  gap: 12rpx;
+  margin-bottom: 20rpx;
+}
+.info-row.data-v-6e84a449 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.label.data-v-6e84a449 {
+  font-size: 26rpx;
+  color: var(--text-secondary);
+}
+.value.data-v-6e84a449 {
+  font-size: 26rpx;
+  color: var(--text-color);
+}
+.card-footer.data-v-6e84a449 {
+  display: flex;
+  justify-content: flex-end;
+}
+.cancel-btn.data-v-6e84a449 {
+  background: transparent;
+  color: var(--error-color);
+  border: 1rpx solid var(--error-color);
+  padding: 12rpx 32rpx;
+  border-radius: 8rpx;
+  font-size: 26rpx;
+}
+.empty-state.data-v-6e84a449 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120rpx 40rpx;
+}
+.empty-icon.data-v-6e84a449 {
+  font-size: 120rpx;
+  margin-bottom: 24rpx;
+}
+.empty-text.data-v-6e84a449 {
+  font-size: 28rpx;
+  color: var(--text-secondary);
+}
